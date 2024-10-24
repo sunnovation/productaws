@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:21
 WORKDIR /app
 COPY ./target/product.jar /app
 EXPOSE 8087
