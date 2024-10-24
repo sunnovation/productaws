@@ -1,5 +1,10 @@
 version: 0.2
 
+env:
+  secrets-manager:
+    DOCKERHUB_PASS: "/docker/Saini@Pooja89"
+    DOCKERHUB_USERNAME: "/docker/19811989"
+    
 phases:
   pre_build:
     commands:
